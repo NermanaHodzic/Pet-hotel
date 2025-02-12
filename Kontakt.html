@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <meta name="referrer" content="origin">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <h1 class="logo">Pet<span>Hotel</span></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="O_nama.html">O nama</a></li>
+          <li><a href="Cijene.html">Cijene</a>
+          <li><a href="Kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="slika8">
+      <img src="img/slika8.png">
+      </div>
+      <div class="div1">
+      <h1>Dobro došli</h1>
+      <p>Ukoliko imate bilo kakvih pitanja ili su Vam potrebne dodatne informacije,<br> o našim uslagama, PetHotela, PetShopa ili PetTaxija u svakom trenutku nas<br> možete kontaktirati</p>
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class="forma">
+        <form action="https://formsubmit.co/pethotel555@gmail.com" method="POST">
+            <h3>Rezervirajte usluge u našem Pet Hotelu</h3><br>
+            <input type="text" name="ime" placeholder="Ime" required><br><br>
+            <input type="text" name="prezime" placeholder="Prezime" required><br><br>
+            <input type="text" name="adresa" placeholder="Adresa" required><br><br>
+            <input type="text" name="email" placeholder="E-mail" required><br><br>
+            <input type="text" name="telefon" placeholder="Kontakt telefon"><br><br>
+            <select>
+                <option value="Odaberite specijalnu uslugu za psa/mačku">Odaberite specijalnu uslugu za psa/mačku</option>
+                <option  value="Vitamini (30KM)">Vitamini (30KM)</option>
+                <option  value="Šetnja (50KM)">Šetnja (50KM)</option>
+                <option  value="Kupanje (56KM)">Kupanje (60KM)</option>
+            </select><br><br>
+            <select>
+                <option value="Odaberite ponudu bez taxi prijevoza">Odaberite ponudu bez taxi prijevoza</option>
+                <option value="Dnevno (15KM)">Dnevno (15KM)</option>
+                <option value="Sedmično (45KM)">Sedmično (45KM)</option>
+                <option value="Mjesečno (155KM)">Mjesečno (155KM)</option>
+            </select><br><br>
+            <select>
+              <option value="Odaberite ponudu sa taxi prevozom">Odaberite ponudu sa taxi prevozom</option>
+              <option value="Dnevno (30KM)">Dnevno (30KM)</option>
+              <option value="Sedmično (90KM)">Sedmično (90KM)</option>
+              <option value="Mjesečno (310KM)">Mjesečno (310KM)</option>
+            </select><br><br>
+            <input type="text" name="datum1" placeholder="Datum prijave(yyyy/mm/dd)"><br><br>
+            <input type="text" name="datum2" placeholder="Datum odjave(yyyy/mm/dd)"><br><br>
+            <textarea name="poruka" placeholder="Poruka" rows="6"></textarea><br><br>
+            <button type="submit" class="myButton" onclick="openPopup()">Pošalji</button>
+            <div class="popup" id="popup">
+              <img src="img/checkmark.jpg" class="checkmark">
+              <h2>Hvala Vam!</h2>
+              <p>Uspješno poslano.</p>
+              <br>
+              <button type="button" onclick="closePopup()">OK</button>
+            </div>
+        </form>
+      </div>
+      <br>
+      <br>
+      <script src="script.js"></script>
+</body>
+</html>

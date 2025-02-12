@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+* {
+  --color-primary:white;
+  --color-black: black;
+  --color-pink:pink;
+  --color-grey:grey;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,li,a,h3 {
+  font-family: 'Lemonada', cursive;
+}
+  
+  .logo {
+    color: var(--color-black);
+    font-size: 30px;
+  }
+  
+  .logo span {
+    color: var(--color-grey);
+  }
+  
+  .menu-bar {
+    background-color: var(--color-pink);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+  
+  }
+  
+  .menu-bar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-bar ul li {
+    /* width: 120px; */
+    padding: 10px 30px;
+    /* text-align: center; */
+  
+    position: relative;
+  }
+  
+ .menu-bar ul li a {
+    font-size: 20px;
+    color: var(--color-black);
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .menu-bar ul li a:hover {
+    color: var(--color-primary);
+  }
+   
+.logo{
+    font-size: 25px;
+    font-family: 'Lemonada', cursive;
+    padding-left: 10px;
+    float: left;
+    padding-top: 25px;
+}
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(img/cat.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    border-bottom: 5px inset wheat;
+    border-radius: 5px;
+}
+  
+  .prostor_za_sliku {
+    height: calc(100vh - 80px);
+    background-image: url(./img/slika1.png);
+    background-position: center;
+  }
+  .slika1{
+    width:100%;
+    height: 25%;
+}
+#p1{
+    text-align: center;
+}
+.div1{
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+    margin-left: 20%;
+    width: 20%;
+    padding-top: 50px;
+    height: 400px;
+    background-color: rgb(248, 225, 229);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.div2{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    padding-top: 50px;
+    height: 400px;
+    background-color:rgb(205, 253, 205);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.div3{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+    padding-top: 50px;
+    height: 400px;
+    background-color:rgb(219, 211, 211);
+    border-radius: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+.slika2{
+    vertical-align: top;
+    height: 800px;
+    width:40%;
+    display: inline-block;
+    margin-right: 350px;
+    
+}
+.div4{
+    width:30%;
+    background-color: white;
+    display: inline-block;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.slika3{
+    vertical-align: top;
+    height: 800px;
+    width:40%;
+    display: inline-block;
+    float: right;
+}
+
+.div5{
+    width:30%;
+    background-color: white;
+    display: inline-block;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 350px;
+}
+.ocisti{
+    clear:both;
+}
+.div6{
+    width:30%;
+    background-color: white;
+    display: inline-block;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 350px;
+}
+.slika5{
+    height: 800px;
+    width:40%;
+    display: inline-block;
+    margin-right: 350px;
+}
+.div7{
+    
+    width:30%;
+    background-color: white;
+    display: inline-block;
+    height: 800px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-right: 200px;
+}
+h3{
+    text-align: left;
+}
+.div8{
+    width:30%;
+    background-color: white;
+    display: inline-block;
+    height: 600px;
+    text-align: center;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 350px; 
+}
+.slika6{
+    float: right;
+    padding-top: 180px;
+    margin-right: 33px;
+
+}
+ion-icon{
+    font-size: 50px;
+    
+}
+.div9{
+    display: inline-block;
+}
+.div10{
+    
+    margin-left: 30px;
+    
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #ffc9ec;
+	background:linear-gradient(to bottom, #dbd2db 5%, #d6c9d6 100%);
+	background-color:#dbd2db;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#c77bc4;
+	font-family:Arial;
+	font-size:18px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d6c9d6 5%, #dbd2db 100%);
+	background-color:#d6c9d6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+footer{
+    width:100%;
+    height: 200px;
+    display:grid;
+    position: relative;
+    grid-template-columns:1fr 1fr 1fr;
+    background-color: pink;
+    box-sizing: border-box;
+    padding: 25px 50px;
+    font-size: small;
+    
+}
+footer .lijevi h3{
+    margin-left: 50px;
+}
+.ikonice li {
+    width: 40px;
+    height: 40px;
+    margin-left:10px;
+    display: inline-block;
+    list-style-type: none;
+}
+.ikonice li a{
+  color: black;
+}
+.ikonice li:hover{
+  transform:skew(10deg);
+
+}
+.hotel li a{
+    width: 20px;
+    height: 20px;
+    color:black;
+    margin-left:10px;
+}
+.hotel li{
+    display: block;
+}
+.hotel li a:hover{
+    color:grey;
+}
+footer .srednji h3{
+    margin-left: 50px;
+}
+.taxi li a{
+    width: 20px;
+    height: 20px;
+    color:black;
+    margin-left:10px;
+}
+.taxi li a:hover{
+    color:grey;
+}
+.taxi li{
+    display: block;
+}
+footer .desni h3{
+    margin-left: 50px;
+}
+footer ion-icon{
+    width: 20px;
+    height: 20px;
+}
+footer ion-icon:hover{
+    color:white;
+}
+footer .lijevi ion-icon{
+    width: 30px;
+    height: 30px;
+}
